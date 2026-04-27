@@ -1,18 +1,18 @@
 # Selenium Automation Testing Project
 
-## 📌 Project Overview
-This is a simple automation testing project using Selenium and Pytest.
-The project demonstrates automation of login functionality using Page Object Model (POM).
+## 📌 Overview
+This project is an automation testing framework built using Selenium WebDriver and Pytest.
+It follows Page Object Model (POM) design pattern.
 
 ## 📁 Project Structure
 - pages/ → Page Object Model classes
-- tests/ → Test cases using Pytest
-- utils/ → WebDriver setup and utilities
-- screenshots/ → Evidence images (failed test screenshots)
+- tests/ → Test cases
+- utils/ → WebDriver setup
+- screenshots/ → Test evidence (failed screenshots)
 
-## ⚙️ Technologies Used
+## ⚙️ Tools Used
 - Python
-- Selenium WebDriver
+- Selenium
 - Pytest
 
 ## 🚀 How to Run Project
@@ -23,11 +23,11 @@ pip install -r requirements.txt
 ### 2. Run tests
 pytest -v
 
-### 3. Generate HTML report (optional)
+### 3. Generate report (optional)
 pytest --html=report.html
 
 ## 📸 Test Evidence
-- login_fail.png → Screenshot when login test fails
+- login_fail.png → screenshot when login test fails
 
 ## 🧠 Notes
-This project was built for learning automation testing (Selenium + Pytest + POM structure).
+This project was created for learning automation testing (Selenium + Pytest + POM).
